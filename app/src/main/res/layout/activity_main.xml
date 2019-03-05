@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印默认格式" />
+
+    <Button
+        android:id="@+id/btn_stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印方法树" />
+
+    <Button
+        android:id="@+id/btn_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印线程信息" />
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印json" />
+
+    <Button
+        android:id="@+id/btn_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印xml"/>
+
+    <Button
+        android:id="@+id/btn_outputToSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输出到sd卡"/>
+
+    <Button
+        android:id="@+id/btn_http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印http请求日志"/>
+</LinearLayout>
