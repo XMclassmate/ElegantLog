@@ -11,7 +11,8 @@ LogUtils.e("我是谁，我在哪，我要干啥");
 //设置tag为‘xxx’
 LogUtils.tag("xxx").e("设置了tag是xxx");
 ```
-来看下效果![](https://upload-images.jianshu.io/upload_images/14496175-6d180a16323357fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+来看下效果
+![](https://upload-images.jianshu.io/upload_images/14496175-6d180a16323357fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 打印堆栈
 ```
  private void md() {
